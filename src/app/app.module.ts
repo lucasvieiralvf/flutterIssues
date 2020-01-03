@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FirstcomponentComponent } from './firstcomponent/firstcomponent.component';
-import { FirstComponentComponent } from './first-component/first-component.component';
-import { FirstComponent } from './first/first.component';
+import { MyHeaderComponent } from './components/my-header/my-header.component';
+import { IssuesComponent } from './components/issues/issues.component';
+import { PullRComponent } from './components/pull-r/pull-r.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FirstcomponentComponent,
-    FirstComponentComponent,
-    FirstComponent
+    MyHeaderComponent,
+    IssuesComponent,
+    PullRComponent
   ],
   imports: [
     BrowserModule,
